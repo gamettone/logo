@@ -7,7 +7,8 @@ gamettone es la organización de GitHub hermana de infranettone, dedicada a jueg
 | Archivo | Qué es | Herramienta | Tamaño |
 |---|---|---|---|
 | `logo-infranettone.png` | Logo original de infranettone, usado como base | — | 400×400 PNG |
-| **`logo-gamettone-comercial.jpeg`** | **Logo oficial.** Panettone con un mando de consola dentro, sin marcas ni personajes | Google Gemini | 1024×1024 JPEG |
+| **`logo-gamettone-comercial.jpeg`** | **Logo oficial.** Panettone con un mando de consola genérico dentro, sin marcas ni personajes | Google Gemini | 1024×1024 JPEG |
+| `logo-gamettone-comercial-xbox.jpeg` | Versión anterior del logo oficial, descartada porque el mando se parecía demasiado al de Xbox | Google Gemini | 1024×1024 JPEG |
 | `logo-gamettone-gemini-full-no-comercial.jpeg` | Versión detallada con una estantería gamer (consolas, juegos y personajes reales). Solo para uso no comercial | Google Gemini | 1024×1024 JPEG |
 | `logo-gamettone-python-pil.png` | Primer boceto hecho con código | Python + Pillow (`make_logo.py`) | 400×400 PNG |
 | `make_logo.py` | Script que genera el boceto | — | — |
@@ -15,14 +16,25 @@ gamettone es la organización de GitHub hermana de infranettone, dedicada a jueg
 ## Logo oficial: `logo-gamettone-comercial.jpeg`
 
 - **Cómo se hizo:** con Google Gemini (modelo de imagen "Nano Banana"), editando `logo-infranettone.png` en varias iteraciones.
-- **Contenido:** el panettone de infranettone con un mando de consola oscuro que ocupa el hueco. Tiene dos joysticks, una cruceta y cuatro botones de colores. Alrededor del mando se ve la miga del bizcocho.
+- **Contenido:** el panettone de infranettone con un mando de consola negro que ocupa el hueco. Tiene dos joysticks, una cruceta, dos botones centrales y cuatro botones de acción, todos negros y sin letras ni símbolos. Alrededor del mando se ve la miga del bizcocho.
 - **Por qué es el oficial:** se hizo para no infringir los derechos de ninguna empresa. Por eso no aparecen personajes, logotipos ni nombres de juegos o consolas.
 - **Tamaño pequeño:** al ser un único elemento grande, se reconoce bien en tamaños pequeños, como el avatar de GitHub.
 - **Formato:** fondo blanco, sin transparencia.
 
-### Revisión de derechos pendiente
+### Revisión de derechos
 
-El diseño del mando recuerda mucho al de Xbox. Los botones Y, X, B y A llevan letras y los mismos colores que el mando de Xbox, y la forma del cuerpo es muy parecida. Para que el logo sea genérico del todo, se recomienda pedir a Gemini botones sin letras (o con símbolos propios) y un mando de forma menos reconocible.
+La primera versión (`logo-gamettone-comercial-xbox.jpeg`) se descartó porque el mando se parecía demasiado al de Xbox:
+
+- los botones llevaban las letras Y, X, B y A con los colores de Xbox (amarillo, azul, rojo y verde);
+- tenía el panel superior en relieve y la silueta característicos de ese mando.
+
+En la versión actual:
+
+- los botones de acción son negros y lisos, sin letras ni colores;
+- no hay botón central con logotipo;
+- el cuerpo es más cuadrado y plano.
+
+Lo único que se mantiene es la disposición asimétrica de los joysticks (el izquierdo arriba y la cruceta debajo). Es una disposición común en muchos mandos (Xbox, Switch Pro y mandos de terceros) y no identifica a ninguna marca por sí sola. El mando es genérico y no identifica a ninguna empresa.
 
 ## Versión no comercial: `logo-gamettone-gemini-full-no-comercial.jpeg`
 
